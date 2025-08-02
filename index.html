@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Menu</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #f9f9f9;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #333;
+    }
+
+    .menu-image {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      transition: transform 0.2s ease;
+    }
+
+    .menu-image:hover {
+      transform: scale(1.02);
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .menu-image {
+        max-width: 100%;
+        margin-bottom: 20px;
+        border-radius: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Menu</h1>
+
+  <a href="menu1.jpg" target="_blank">
+    <img src="menu1.jpg" alt="Menu Page 1" class="menu-image" />
+  </a>
+
+  <a href="menu2.jpg" target="_blank">
+    <img src="menu2.jpg" alt="Menu Page 2" class="menu-image" />
+  </a>
+
+</body>
+</html>
